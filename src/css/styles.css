@@ -51,7 +51,8 @@ body {
   gap: 8px;
 }
 
-.input {
+.input,
+.input:active {
   border: 1px solid #808080;
   border-radius: 4px;
   width: 360px;
@@ -87,6 +88,7 @@ body {
   font-weight: 500;
   color: #fff;
   border-style: none;
+  cursor: pointer;
 }
 .button:hover {
   background: #6c8cff;
